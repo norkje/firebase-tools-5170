@@ -1,0 +1,19 @@
+{
+  "hosting": {
+    "target": "public",
+    "public": "public",
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  "emulators": {
+    "hosting": {
+      "enabled": true,
+      "port": 5000,
+      "host": "0.0.0.0"
+    }
+  }
+}
